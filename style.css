@@ -5,6 +5,33 @@ body{
   color: #3D3C39;
 }
 
+p{
+  display: block;
+  width: 75%;
+  text-align: center;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+
+#centerHead{
+  text-align: center;
+}
+
+#aboutMe{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 header {
   display: flex;
   flex-direction: column;
@@ -35,13 +62,16 @@ nav{
 ul{
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
 }
 
 li{
   margin: 10px 10px 10px 10px;
   color: #3D3C39;
+  text-align: left;
 }
 
 a{
@@ -69,12 +99,6 @@ main{
   flex-grow: 4;
 }
 
-aside{
-  background-color: #CAAD91;
-  flex-grow: 2;
-  height: 300px;
-}
-
 
 footer{
   color: #CDAB8D;
@@ -83,4 +107,8 @@ footer{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.projBlog{
+  color: #6A6055;
 }
