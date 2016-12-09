@@ -88,6 +88,8 @@
   line-height: 80px;
   padding-top: 0;
   padding-bottom: 0;
+}
+.nav-item{
   color: black;
 }
 
@@ -97,9 +99,9 @@
 }
 
 .site-logo{
-  color:white;
   /*make the height of inline as high as bar to center*/
   line-height: 80px;
+  font-size: 20px;
 }
 
 .navbar {
@@ -113,13 +115,20 @@
 
 .scrolled {
     background: rgba(0, 0, 0, .2); //NON-IE
-    z-index: 2;
 }
 
 .center{
   text-align: center;
 }
 
+.sub-title{
+  text-align: right;
+  margin-left: 75px;
+}
+
+.nav-item-scroll{
+  color: rgba(255,255,255,.5);
+}
 /*HERO///////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////*/
 .hero{
@@ -167,6 +176,7 @@
   list-style: none;
   padding:0;
 }
+
 
 /*ABOUT ME///////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////*/
