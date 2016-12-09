@@ -2,6 +2,11 @@
 /////////////////////////////////////////////////////////////////////////*/
 *{
   outline:none;
+  font-family: georgia;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: georgia;
 }
 
 /*you want multiple wrappers around each section, not the whole thing*/
@@ -27,6 +32,10 @@
   padding: 80px 0px;
   color: black;
   background-attachment: fixed;
+}
+
+.dark-title{
+  color: black;
 }
 
 /*NAV MOBILE///////////////////////////////////////////////////////////////////
@@ -143,9 +152,10 @@
 }
 
 .hero h1,
-      p{
+      p,
+      h2{
         /*nice touch for text color*/
-  color:rgba(255,255,255,.8);
+  color:rgba(255,255,255,.7);
   max-width: 70%;
 }
 
