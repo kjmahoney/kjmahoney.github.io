@@ -1,75 +1,223 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <link type = "text/css" rel ="stylesheet" href = "style.css"/>
-    <title>Kevin Mahoddney</title>
-  </head>
-  <body>
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kevin Mahoney</title>
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
 
 
-      <header>
-          <h2> Kevin Mahoney</h2>
-          <img src="images/kevinPro.jpg" alt="Kevin Mahoney">
-          <p>An internationally minded web-developer</p>
-      </header>
+  <div class="off-canvas-wrapper">
+    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
 
-        <nav>
-          <ul class = "navUl">
-            <li><a class = "currentLink navLink" href ="index.html">Home</a></li>
-              <li><a class = "navLink" href ="portfolio.html">Portfolio</a></li>
-                <li><a class = "navLink" href ="resumePdf.pdf" target="_blank">Résumé</a></li>
+      <div class="off-canvas position-left" id="mobile-menu" data-off-canvas>
+        <ul>
+          <li><a href="#">One</a></li>
+          <li><a href="#">Two</a></li>
+          <li><a href="#">Three</a></li>
+        </ul>
+      </div>
+      <div class="off-canvas-content" data-off-canvas-content>
+
+        <!-- MOBILE NAVIGATION -->
+
+
+        <div class="title-bar show-for-small-only">
+          <div class="title-bar-left">
+            <button class="menu-icon" type="button" data-open="mobile-menu"></button>
+            <span class="title-bar-title">Titles</span>
+          </div>
+        </div>
+
+        <!-- DESKTOP NAVIGATION -->
+
+
+
+        <!-- HERO SECTION -->
+
+
+        <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+
+          <ul>
+            <nav class="top-bar nav-desktop navbar">
+              <div class = "wrap">
+
+                <div class="top-bar-left">
+                  <h3 class="site-logo"></h3>
+                </div>
+
+                <div class="top-bar-right">
+                  <ul class="menu menu-desktop">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+            <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+            <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+            <!-- slide one -->
+            <li class="is-active orbit-slide">
+              <div class ="hero slide-one">
+                <div class = "wrap">
+                  <h1>Title</h1>
+                  <p>
+                    Vis ullum graecis pertinax in, ea sea ipsum dolorum intellegam, at aeterno epicurei vulputate cum. Est saperet intellegat ea, nostro aliquam eu per.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <!-- slide two -->
+            <li class="orbit-slide">
+              <div class ="hero slide-two">
+                <div class = "wrap">
+                  <h1>Title</h1>
+                  <p>
+                    Vis ullum graecis pertinax in, ea sea ipsum dolorum intellegam, at aeterno epicurei vulputate cum. Est saperet intellegat ea, nostro aliquam eu per.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="orbit-slide">
+              <div class ="hero slide-three">
+                <div class = "wrap">
+                  <h1>Title</h1>
+                  <p>
+                    Vis ullum graecis pertinax in, ea sea ipsum dolorum intellegam, at aeterno epicurei vulputate cum. Est saperet intellegat ea, nostro aliquam eu per.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="orbit-slide">
+              <div class ="hero slide-four">
+                <div class = "wrap">
+                  <h1>Title</h1>
+                  <p>
+                    Vis ullum graecis pertinax in, ea sea ipsum dolorum intellegam, at aeterno epicurei vulputate cum. Est saperet intellegat ea, nostro aliquam eu per.
+                  </p>
+                </div>
+              </div>
+            </li>
+
           </ul>
-        </nav>
+          <!-- bullets -->
+          <!-- <nav class="orbit-bullets">
+            <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+            <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+            <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+            <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+          </nav> -->
 
-        <main>
+        </div>
 
-            <div id ="aboutMe">
-              <h3 id="centerHead"> Hello!</h3>
-              <p> I am currently a Web Development Immersive Student at General Assembly. Prior to this I worked
-              in IT consulting for two years as a Business Analyst. I am determined to move to the creative side of the
-              IT industry and eventually apply his skills to his passion for developing international cooperation and connectivity</p>
+        <!-- ABOUT ME SECTION -->
+        <div class ="main about-me">
+        <div class = "wrap row center">
+          <h1 class ="section-header">About</h1>
+
+        <div class = "intro row">
+          <img class = "prof-pic small-12 medium-4" src="img/profPic1.png" alt="headshot">
+          <p class= "column small-12 medium-8">
+             I am a consultant become web developer who is drawn to creative environments.  Whether it be brainstorming, planning,  coding,  debugging, crying, or laughing, I find joy in the process of making things, especially with the end goal of producing meaningful change. My skills,  experience, and interests lend me many hats to wear in order to be a key player throughout this process.
+          </p>
+        </div>
+
+
+            <div class = "column small-12 medium-6">
+              <h2>Hot Take</h2>
+              <hr>
+              <ul>
+                <li>Education: The College of William and Mary</li>
+
+              </ul>
             </div>
 
-            <div id = "skills">
-              <h3>Development Skills</h3>
-                  <ul>
-                    <li>HTML & CSS</li>
-                      <li>Javascript</li>
-                        <li>Git</li>
-                         <li>MySQL</li>
-                          <li>Test Scripts</li>
-                  </ul>
-              </div>
+            <div class = "column small-12 medium-6">
+              <h2>Skills</h2>
+              <hr>
+              <p>
+                Lorem ipsum dolor sit amet, quo at vidit explicari, adolescens suscipiantur mei ne, sit solum eligendi ad. Constituam necessitatibus et pri. Ad nostrud inimicus concludaturque sed, id qui assum doctus, vix summo tantas mnesarchum id. Vis ullum graecis pertinax in, ea sea ipsum dolorum intellegam, at aeterno epicurei vulputate cum. Est saperet intellegat ea, nostro aliquam eu per.
+              </p>
+            </div>
 
-            <div id = "experience">
-              <h3>Experience and Background</h3>
-              <ul>
-                <li>Two years full-time IT Consulting experience</li>
-                  <li>Graduated from the College of William and Mary with a degree in Finance and Chinese Studies</li>
-                    <li>Internship Experience in Mobile Application Business Development and Logistics</li>
-              </ul>
-              </div>
+          </div>
 
-              <div id = "otherSkills">
-                <h3>Other Skills and Experience</h3>
-                <ul>
-                  <li>Mandarin Chinese</li>
-                    <li>Financial Valuation and Modeling</li>
-                      <li>Improvisational Theater</li>
-                </ul>
-                </div>
-        </main>
+        </div>
 
-    <footer>
-      <h4> Contact Kevin </h4>
-      <ul class = "navUl">
-        <li><a href ="mailto:kjmahoney13@gmail.com">Email</a></li>
-        <li><a href ="https://www.linkedin.com/in/kevin-mahoney-b58b2946?trk=hp-identity-photo">LinkedIn</a></li>
-        <li><a href ="https://www.facebook.com/kjmahoney13">Facebook</a></li>
-      </ul>
-    </footer>
+        <!-- PORTFOLIO SECTION -->
+        <div class ="main portfolio">
+          <div class = "wrap row">
+
+            <div class = "column small-12 medium-4">
+              <h3>Ciku Language</h3>
+              <hr>
+              <img src ="https://i.ytimg.com/vi/1dWjKkF0Zi4/maxresdefault.jpg" alt="project1 Picture">
+
+              <p>
+                Vis ullum graecis pertinax in, ea sea ipsum dolorum intellegam, at aeterno epicurei vulputate cum. Est saperet intellegat ea, nostro aliquam eu per.
+              </p>
+            </div>
+
+            <div class = "column small-12 medium-4">
+              <h3>Rent Map</h3>
+              <hr>
+              <img src ="https://i.ytimg.com/vi/1dWjKkF0Zi4/maxresdefault.jpg" alt="project2 Picture">
+              <p>
+                Vis ullum graecis pertinax in, ea sea ipsum dolorum intellegam, at aeterno epicurei vulputate cum. Est saperet intellegat ea, nostro aliquam eu per.
+              </p>
+            </div>
+
+            <div class = "column small-12 medium-4">
+              <h3>Harold Team</h3>
+              <hr>
+              <img src ="https://i.ytimg.com/vi/1dWjKkF0Zi4/maxresdefault.jpg" alt="project4 Picture">
+
+              <p>
+                Vis ullum graecis pertinax in, ea sea ipsum dolorum intellegam, at aeterno epicurei vulputate cum. Est saperet intellegat ea, nostro aliquam eu per.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer>
+        <!-- email form -->
+          <!-- <div class="column small-12 medium-6">
+            <h4>Send Me a Message!</h4>
+            <form class="cf">
+            <input type="text" id="input-name" placeholder="Name">
+            <input type="email" id="input-email" placeholder="Email address">
+            <input type="text" id="input-subject" placeholder="Hi Kevin">
+            <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+            <input type="submit" value="Submit" id="input-submit">
+          </form>
+          </div> -->
+        <!-- end email form -->
+              <h4>Contact Me!</h4>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kjmahoney13@gmail.com&su=Hi&body=Hi&"><span>kjmahoney13@gmail.com</span></a>
+
+              <a href="https://www.linkedin.com/in/kevin-mahoney2013"><span>LinkedIn</span></a>
+
+              <a href="https://github.com/kjmahoney"><span>Github</span></a>
 
 
-  </body>
+        </footer>
+
+    </div>
+  </div>
+
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.js"></script>
+  <script src="js/app.js"></script>
+</body>
 </html>

@@ -1,0 +1,271 @@
+/*GENERAL///////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////*/
+*{
+  outline:none;
+}
+
+/*you want multiple wrappers around each section, not the whole thing*/
+.wrap{
+  width: 90%;
+  margin: 0px auto;
+  max-width: 1100px;
+}
+
+.off-canvas-wrapper{
+  background-color: #222;
+}
+
+.section-title{
+  text-align: center;
+}
+
+.section-title h1{
+  text-align: center;
+}
+
+.main{
+  padding: 80px 0px;
+  color: black;
+  background-attachment: fixed;
+}
+
+/*NAV MOBILE///////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////*/
+.title-bar{
+  height: 60px;
+  padding: 17px;
+}
+
+#mobile-menu{
+  background-color: #222;
+  padding: 10px;
+}
+/*dont need to have ul*/
+#mobile-menu li{
+  list-style: none;
+}
+
+#mobile-menu a{
+  color:rgba(255,255,255,.5);
+  font-weight: bold;
+  line-height: 2;
+}
+
+#mobile-menu a:hover{
+  color:rgba(255,255,255,.3);
+  font-weight: bold;
+  line-height: 2;
+}
+
+.js-off-canvas-exit{
+  /*0 0 0 makes things darker*/
+  background-color:rgba(0,0,0,.5);
+}
+
+/*NAV DESKTOP///////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////*/
+.nav-desktop{
+  height: 80px;
+  /*once line height adjusted, check if padding is preventing cetnering*/
+  padding: 0px;
+  position: fixed;
+  width: 100%;
+  background-color:rgba(235,235,235,1);
+}
+
+.nav-desktop .menu-desktop{
+  line-height: 80px;
+  background-color: transparent;
+}
+
+.nav-desktop a{
+  line-height: 80px;
+}
+
+.menu>li>a{
+  display: inline-block;
+  /*so that link applies to whole nav height*/
+  line-height: 80px;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: black;
+}
+
+.menu>li>a:hover{
+  /*allows your background to respond to its parent*/
+  background-color:rgba(255,255,255,.1)
+}
+
+.site-logo{
+  color:white;
+  /*make the height of inline as high as bar to center*/
+  line-height: 80px;
+}
+
+.navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+    z-index: 2;
+}
+
+.scrolled {
+    background: rgba(0, 0, 0, 0);(68, 68, 68, 0); //IE
+    background: rgba(0, 0, 0, 0); //NON-IE
+    z-index: 2;
+}
+
+.center{
+  text-align: center;
+}
+
+/*HERO///////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////*/
+.hero{
+  background-color: #999;
+  padding: 80px 0px;
+  min-height: 550px;
+  color: white;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top: 0px;
+  z-index: -1;
+}
+
+.hero h1,
+      p{
+        /*nice touch for text color*/
+  color:rgba(255,255,255,.8);
+  max-width: 70%;
+}
+
+.slide-one{
+  background-image: url("https://img.businessoffashion.com/1024/573/magic/site/uploads/2015/04/shutterstock_212559235.jpg");
+}
+
+.slide-two{
+  background-image: url("http://www.parisaddress.com/var/source/district/new/tour_eiffel-paris.jpg");
+}
+
+.slide-three{
+  background-image: url("http://va-beachrental.com/wp-content/uploads/2013/09/sandbridge-beach.jpg");
+}
+
+.slide-four{
+  background-image: url("../img/dc.jpg");
+}
+
+.orbit ul{
+  margin:0;
+}
+
+
+.orbit li{
+  list-style: none;
+  padding:0;
+}
+
+/*ABOUT ME///////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////*/
+
+.about-me{
+  background-image: url("../img/ignasi_pattern_s.png");
+}
+
+.section-header{
+  display: block;
+  margin: -20px 0px 0px 0px;
+}
+
+.intro p{
+  margin: 45px 0px 0px 0px;
+}
+
+.main h2{
+  text-align: center;
+}
+
+.main p{
+  color: black;
+}
+
+.prof-pic{
+  display: inline-block;
+  border-radius: 50%;
+  width:175px;
+  height: 225px;
+}
+
+.bio{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/*PORTFOLIO///////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////*/
+
+.portfolio{
+  background-image: url("../img/weather.png");
+}
+
+.portfolio-pic{
+  width: 300px;
+}
+
+/*FOOTER///////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////*/
+footer{
+  background-color: #222;
+  padding: 80px 0px;
+  text-align: center;
+}
+
+footer h4{
+  color:rgba(255,255,255,.8);
+  font-size: 1.3em;
+}
+
+/*note how to change color of an hr, it is just a border bottom*/
+/*if you try to style whole border it will increase size of border*/
+footer hr{
+  border-color: rgba(255,255,255,.1);
+  margin: 10px 0px;
+  font-size:.8em;
+}
+
+footer a{
+  display: block;
+  color: red;
+  margin: 10px 0px;
+}
+
+footer a span:hover{
+  color:rgba(255,255,255,.8);
+}
+
+footer a span{
+  color:rgba(255,255,255,.3);
+}
+
+/*MEDIA QUERY*/
+@media (max-width: 639px) {
+  /*things warp at 640 so make disappear at 639*/
+.nav-desktop{
+      display:none;
+}
+
+}
+
+@media (max-width: 875px) {
+  /*things warp at 640 so make disappear at 639*/
+  .hero h1,
+        p{
+          /*nice touch for text color*/
+    max-width: 100%;
+  }
+
+}
