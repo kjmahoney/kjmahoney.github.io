@@ -112,8 +112,7 @@
 }
 
 .scrolled {
-    background: rgba(0, 0, 0, 0);(68, 68, 68, 0); //IE
-    background: rgba(0, 0, 0, 0); //NON-IE
+    background: rgba(0, 0, 0, .2); //NON-IE
     z-index: 2;
 }
 
@@ -126,7 +125,7 @@
 .hero{
   background-color: #999;
   padding: 80px 0px;
-  min-height: 550px;
+  min-height: 700px;
   color: white;
   background-attachment: fixed;
   background-size: cover;
@@ -154,7 +153,8 @@
 }
 
 .slide-four{
-  background-image: url("../img/dc.jpg");
+  background-image: url("../img/show3.jpg");
+  /*https://kjmahoney.github.io/img/dc.jpg*/
 }
 
 .orbit ul{
@@ -213,7 +213,8 @@
 }
 
 .portfolio-pic{
-  width: 300px;
+  width: 330px;
+  height: 250px;;
 }
 
 /*FOOTER///////////////////////////////////////////////////////////////////
