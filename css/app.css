@@ -133,14 +133,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 75px;
 }
 
-.nav-item-scroll{
-  color: rgba(255,255,255,.5);
-}
-
 .nav-item{
   color: black;
 }
 
+.nav-item-scroll{
+  color: rgba(255,255,255,.5);
+}
 .nav-item:hover{
   color: rgba(86,86,86,1);
 }
@@ -180,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .slide-three{
-  background-image: url("http://theplanetd.com/images/Shanghai-Skyline-HDR-1-XL.jpg");
+  background-image: url("https://c1.staticflickr.com/5/4142/4911029899_63e6324308_b.jpg");
 }
 
 
