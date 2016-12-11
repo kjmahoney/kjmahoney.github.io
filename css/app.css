@@ -148,6 +148,10 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(86,86,86,1);
 }
 
+.title{
+  color: rgba(255,255,255,.9);
+}
+
 
 /*HERO///////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////*/
@@ -170,9 +174,15 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 70%;
 }
 
+.slide{
+  background-position: center;
+}
+
 .slide-one{
+  background-position: center;
   background-image: url("https://img.businessoffashion.com/1024/573/magic/site/uploads/2015/04/shutterstock_212559235.jpg");
 }
+
 
 .slide-two{
   background-image: url("../img/show3.jpg");
@@ -260,6 +270,10 @@ span{
   background-image: url("../img/weather.png");
 }
 
+.portfolio p{
+  margin: 20px 0px;
+}
+
 .portfolio-pic{
   width: 330px;
   height: 250px;;
@@ -268,6 +282,7 @@ span{
 .project-title{
   margin: auto;
   margin-bottom: 30px;
+  font-size: 44px;
 }
 
 /*image link effect*/
@@ -342,7 +357,7 @@ footer{
 }
 
 footer h4{
-  color:rgba(255,255,255,.8);
+  color: white;
   font-size: 1.3em;
 }
 
@@ -361,11 +376,11 @@ footer a{
 }
 
 footer a span:hover{
-  color:rgba(255,255,255,.8);
+  color:rgba(255,255,255,.3);
 }
 
 footer a span{
-  color:rgba(255,255,255,.3);
+  color:rgba(255,255,255,.6);
 }
 
 /*MEDIA QUERY*/
@@ -374,6 +389,30 @@ footer a span{
 .nav-desktop{
       display:none;
 }
+
+.portfolio{
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+.section-header{
+  font-size: 28px;
+}
+
+.main h2{
+  margin: auto;
+}
+
+.main .project-title{
+  font-size: 28px;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+
+
 
 }
 
