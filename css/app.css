@@ -98,9 +98,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 0;
   padding-bottom: 0;
 }
-.nav-item{
-  color: black;
-}
+
 
 .menu>li>a:hover{
   /*allows your background to respond to its parent*/
@@ -138,6 +136,20 @@ h1, h2, h3, h4, h5, h6 {
 .nav-item-scroll{
   color: rgba(255,255,255,.5);
 }
+
+.nav-item{
+  color: black;
+}
+
+.nav-item:hover{
+  color: rgba(86,86,86,1);
+}
+
+.nav-item:focus{
+  color: rgba(86,86,86,1);
+}
+
+
 /*HERO///////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////*/
 .hero{
@@ -192,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
 /////////////////////////////////////////////////////////////////////////*/
 
 .about-me{
-  background-image: url("../img/ignasi_pattern_s.png");
+  background-image: url("../img/fresh_snow.png");
 }
 
 .section-header{
@@ -239,6 +251,9 @@ h1, h2, h3, h4, h5, h6 {
   margin: 40px 0px 0px 0px;
 }
 
+span{
+  font-weight: bold;
+}
 /*PORTFOLIO///////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////*/
 
@@ -249,6 +264,11 @@ h1, h2, h3, h4, h5, h6 {
 .portfolio-pic{
   width: 330px;
   height: 250px;;
+}
+
+.project-title{
+  margin: auto;
+  margin-bottom: 30px;
 }
 
 /*image link effect*/
