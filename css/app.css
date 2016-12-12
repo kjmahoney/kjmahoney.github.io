@@ -174,8 +174,9 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   margin-top: 0px;
   z-index: -1;
-
-
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
 }
 
 .hero h1,
@@ -187,9 +188,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .slide{
-  /* Preserve aspet ratio */
-  min-width: 100%;
-  min-height: 100%;
+  width: 100%;
+  background-position: center;
 }
 
 .slide-one{
