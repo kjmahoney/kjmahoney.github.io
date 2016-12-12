@@ -177,6 +177,15 @@ h1, h2, h3, h4, h5, h6 {
   z-index: -1;
   background-attachment: scroll;
   background-attachment: fixed;
+  background-size: cover;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       height: 100%;
+       width: 100%;
+       position: fixed;
+       background-position: center center;
+       background-repeat: no-repeat;
 }
 
 .hero h1,
