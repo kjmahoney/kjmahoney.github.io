@@ -477,7 +477,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 1045px) {
   /*fix the picture smushing issue*/
-  .service .service-icon-box > img.service-icon {
+  .service .service-icon-box > a > img.service-icon {
     width: 297px;
     height: 225px;
   }
@@ -487,7 +487,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 932px) {
   /*fix the picture smushing issue*/
-  .service .service-icon-box > img.service-icon {
+  .service .service-icon-box > a > img.service-icon {
     width: 267px;
     height: 202px;
   }
@@ -499,7 +499,7 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 1.49rem;
     }
 
-    .service .service-icon-box > img.service-icon {
+    .service .service-icon-box > a > img.service-icon {
       width: 240px;
       height: 181px;
     }
@@ -508,7 +508,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 680px) {
   /*fix the picture smushing issue*/
-  .service .service-icon-box > img.service-icon {
+  .service .service-icon-box > a > img.service-icon {
     width: 228px;
     height: 172px;
   }
