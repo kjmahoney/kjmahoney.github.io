@@ -397,6 +397,8 @@ footer a span{
 /*MEDIA QUERY*/
 @media (max-width: 639px) {
   /*things warp at 640 so make disappear at 639*/
+
+
 .nav-desktop{
       display:none;
 }
@@ -427,13 +429,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: -20px;
 }
 
-.mobile-title{
+/*.mobile-title{
   display: block;
   padding: 10px;
-}
+}*/
 
 
-.service{
+/*.service{
   border-color: #00a8ff;
   margin-bottom: 30px;
 }
@@ -448,10 +450,10 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
-  transform: scale(1); }
+  transform: scale(1); }*/
 
 
-  .service:hover {
+  /*.service:hover {
     border-color: #00a8ff; }
   .service:hover .service-icon-box {
     top: -0px; }
@@ -464,7 +466,7 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
-  }
+  }*/
 
 
 }
