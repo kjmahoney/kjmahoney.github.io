@@ -1,7 +1,7 @@
 $(document).foundation()
 // change nav bar based on page scroll
 function checkScroll(){
-    var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
+    var startY = $('.navbar').height() * 1; //The point where the navbar changes in px
 
     if($(window).scrollTop() < startY){
       // console.log($(window).scrollTop())
@@ -18,7 +18,7 @@ if($('.navbar').length > 0){
         checkScroll();
     });
 }
-//links at top of page
+//the following functions control link navigation at top of page
 $(function(){
   $(".home-link").click(function(){
     $("html,body").animate({scrollTop:$(".orbit").offset().top},"500");return false

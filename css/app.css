@@ -43,11 +43,20 @@ h1, h2, h3, h4, h5, h6 {
 .title-bar{
   height: 60px;
   padding: 17px;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  background: rgba(0,0,0,.7);
 }
 
 #mobile-menu{
   background-color: #222;
   padding: 10px;
+  position: fixed;
+  z-index: 2;
+  height: 100%;
+  background: url("../img/tweed.png");
+
 }
 /*dont need to have ul*/
 #mobile-menu li{
@@ -55,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-menu a{
-  color:rgba(255,255,255,.5);
+  color:white;
   font-weight: bold;
   line-height: 2;
 }
@@ -212,6 +221,7 @@ h1, h2, h3, h4, h5, h6 {
 /*ABOUT ME///////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////*/
 
+
 .about-me{
   background-image: url("../img/fresh_snow.png");
 }
@@ -267,6 +277,8 @@ span{
 /////////////////////////////////////////////////////////////////////////*/
 
 .portfolio{
+  /*background-image: url("../img/halftone.png");*/
+  /*background-image: url("../img/fresh_snow.png");*/
   background-image: url("../img/weather.png");
 }
 
@@ -276,7 +288,7 @@ span{
 
 .portfolio-pic{
   width: 330px;
-  height: 250px;;
+  height: 250px;
 }
 
 .project-title{
@@ -425,3 +437,41 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 }
+
+@media (max-width: 1045px) {
+  /*fix the picture smushing issue*/
+  .portfolio-pic{
+    width: 297px;
+    height: 225px;
+  }
+
+}
+
+
+@media (max-width: 932px) {
+  /*fix the picture smushing issue*/
+  .portfolio-pic{
+    width: 267px;
+    height: 202px;
+  }
+
+  @media (max-width: 794px) {
+    /*fix the picture smushing issue*/
+
+    .portfolio-title{
+      font-size: 1.49rem;
+    }
+
+    .portfolio-pic{
+      width: 240px;
+      height: 181px;
+    }
+
+}
+
+@media (max-width: 680px) {
+  /*fix the picture smushing issue*/
+  .portfolio-pic{
+    width: 228px;
+    height: 172px;
+  }
