@@ -187,12 +187,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .slide{
-  width: 100%;
-  background-position: center;
-  position: fixed; 
-  top: 0;
-  left: 0;
-
   /* Preserve aspet ratio */
   min-width: 100%;
   min-height: 100%;
