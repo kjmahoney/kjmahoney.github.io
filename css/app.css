@@ -289,7 +289,8 @@ span{
 .portfolio{
   /*background-image: url("../img/halftone.png");*/
   /*background-image: url("../img/fresh_snow.png");*/
-  background-image: url("../img/weather.png");
+  /*background-image: url("../img/weather.png");*/
+  background-image: url("http://www.resortcollection.com/wp-content/themes/resortcollection/property-images/summit/summit-beach-resort-panama-city-beach-fl-beach-01.jpg");
 }
 
 .portfolio p{
@@ -311,6 +312,7 @@ span{
 
 .service {
   display: block;
+  margin-top: 20px;
   width: 100%;
   text-align: left;
   -webkit-transition: all 0.3s ease;
@@ -341,7 +343,8 @@ span{
     height: 250px;
   }
   .service:hover {
-    border-color: #00a8ff; }
+    border-color: #00a8ff;
+  margin-top: 15px}
   .service:hover .service-icon-box {
     top: -30px; }
   .service:hover .service-heading {
@@ -352,7 +355,9 @@ span{
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1); }
-
+  .service:hover .mobile-title {
+    margin-bottom: 40px;
+       }
 .mobile-title{
   display: none;
 }
@@ -429,28 +434,33 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: -20px;
 }
 
-/*.mobile-title{
+/*uncomment to have project descriptions show in mobile */
+
+.mobile-title{
   display: block;
   padding: 10px;
-}*/
-
+}
 
 /*.service{
   border-color: #00a8ff;
   margin-bottom: 30px;
 }
 .service.service-icon-box {
-  top: -30px; }
+  top: -30px;
+}*/
+
 .service .service-heading {
   display: none;
-  top: -30px; }
-.service .service-description {
-  padding: 15px;
+  top: -30px;
+}
 
+/*.service .service-description {
+  padding: 15px;
   opacity: 1;
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
-  transform: scale(1); }*/
+  transform: scale(1);
+  }*/
 
 
   /*.service:hover {
