@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 700px;
   color: white;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: contain;
   margin-top: 0px;
   z-index: -1;
 }
@@ -185,6 +185,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .slide{
   background-position: center;
+  background-size: contain;
 }
 
 .slide-one{
