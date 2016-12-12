@@ -5,6 +5,8 @@
   font-family: georgia;
 }
 
+
+
 h1, h2, h3, h4, h5, h6 {
     font-family: georgia;
 }
@@ -178,6 +180,9 @@ h1, h2, h3, h4, h5, h6 {
  -o-background-size: cover;
  background-attachment: scroll;
  background-attachment: fixed;
+ background-size: cover;
+ height: 100%;
+ overflow: hidden;
 }
 
 
@@ -195,7 +200,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .slide-one{
-  background-image: url("https://img.businessoffashion.com/1024/573/magic/site/uploads/2015/04/shutterstock_212559235.jpg");
+  /*background-image: url("https://img.businessoffashion.com/1024/573/magic/site/uploads/2015/04/shutterstock_212559235.jpg");*/
+  background: url(https://img.businessoffashion.com/1024/573/magic/site/uploads/2015/04/shutterstock_212559235.jpg);
+
 }
 
 
