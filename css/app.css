@@ -339,6 +339,7 @@ span{
   .service:hover .service-icon-box {
     top: -30px; }
   .service:hover .service-heading {
+    padding-top: 10px;
     top: -30px; }
   .service:hover .service-description {
     opacity: 1;
