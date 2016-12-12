@@ -209,7 +209,8 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .slide-four{
-  background-image: url("../img/dc.png");
+  background-image: url("http://www.vbbound.com/sites/default/files/listings/virginia-beach-sunrise-02_0.jpg");
+  /*background-image: url("../img/dc.png");*/
 }
 
 
@@ -291,6 +292,8 @@ span{
   /*background-image: url("../img/fresh_snow.png");*/
   /*background-image: url("../img/weather.png");*/
   background-image: url("http://www.resortcollection.com/wp-content/themes/resortcollection/property-images/summit/summit-beach-resort-panama-city-beach-fl-beach-01.jpg");
+  background-size: cover;
+  background-attachment: scroll;
 }
 
 .portfolio p{
