@@ -422,6 +422,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-title{
   display: block;
+  padding: 10px;
 }
 
 
@@ -435,8 +436,8 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
   top: -30px; }
 .service .service-description {
-  margin-bottom: 15px;
-  margin-top: 15px;
+  padding: 15px;
+
   opacity: 1;
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
