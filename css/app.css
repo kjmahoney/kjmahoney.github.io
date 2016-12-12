@@ -198,13 +198,19 @@ h1, h2, h3, h4, h5, h6 {
   background-position: center;
 }
 
+.body{
+height:100%;
+overflow: scroll;
+-webkit-overflow-scrolling: touch;
+}
+
 .slide-one{
   /*background-image: url("https://img.businessoffashion.com/1024/573/magic/site/uploads/2015/04/shutterstock_212559235.jpg");*/
   /*background: url("https://img.businessoffashion.com/1024/573/magic/site/uploads/2015/04/shutterstock_212559235.jpg") no-repeat center center fixed;*/
   background: url("https://img.businessoffashion.com/1024/573/magic/site/uploads/2015/04/shutterstock_212559235.jpg");
   height: 100%;
   background-size: cover;
-  overflow: scroll;
+  overflow: hidden;
   background-attachment: fixed;
 }
 
